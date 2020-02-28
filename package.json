@@ -1,0 +1,21 @@
+{
+  "name": "podcasts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jean Pierre <stick-master666@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^9.2.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "isomorphic-unfetch": "^3.0.0"
+  }
+}
