@@ -6,7 +6,7 @@ Web site of Rick and Morty which was created for learn  Next.js
 
 ## ¿How Does It Work?
 
-Requiere Node.js
+Requiere Node.js v13.8.0
 
 * `yarn install` for install of dependencies
 * `yarn dev` for development environment
