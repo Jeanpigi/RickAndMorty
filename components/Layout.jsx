@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Link from 'next/link';
 import Head from 'next/head';
 
-class Layout extends Component {
+export default class Layout extends Component {
     render(){
         const { children, title } = this.props
         return (
@@ -33,5 +33,3 @@ class Layout extends Component {
         );
     }
 }
-
-export default Layout

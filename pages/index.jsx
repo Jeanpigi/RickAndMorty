@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 import CharacterGrid from '../components/CharacterGrid'
 
 
-class Home extends Component {
+export default class extends Component {
     static async getInitialProps(ctx) {
         const res = await fetch('http://rickandmortyapi.com/api/character/');
         const json = await res.json()
@@ -21,4 +21,4 @@ class Home extends Component {
     }
 }
 
-export default Home
+

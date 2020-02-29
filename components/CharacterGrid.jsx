@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Link from 'next/link';
-import fetch from 'isomorphic-unfetch';
+
 
 class CharacterGrid extends Component {
     render() {
